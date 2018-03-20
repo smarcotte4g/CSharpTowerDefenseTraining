@@ -8,5 +8,9 @@ namespace TowerDefense
 {
     class Path
     {
+        public Path()
+        {
+
+        }
     }
 }
