@@ -11,8 +11,10 @@ namespace TowerDefense
         public readonly int X;
         public readonly int Y;
 
+        // Constructor
         public Point(int x, int y)
         {
+            // Initialize Values
             X = x;
             Y = y;
         }
@@ -27,6 +29,7 @@ namespace TowerDefense
 
         public int DistanceTo(int x, int y)
         {
+            // This code is the same as the line that is not commented out
             //int xDiff = X - x;
             //int yDiff = Y - y;
 
