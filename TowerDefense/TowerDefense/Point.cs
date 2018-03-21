@@ -17,6 +17,14 @@ namespace TowerDefense
             Y = y;
         }
 
+
+        // DistanceTo Method that calculates the distance between 2 point objects
+        // Overloaded Method is the same name but take different parameters
+        public int DistanceTo(Point point)
+        {
+            return DistanceTo(point.X, point.Y);
+        }
+
         public int DistanceTo(int x, int y)
         {
             //int xDiff = X - x;
@@ -29,5 +37,7 @@ namespace TowerDefense
 
             return (int)Math.Sqrt(Math.Pow(X - x, 2) + Math.Pow(Y - y, 2));
         }
+
+        
     }
 }
